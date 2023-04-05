@@ -1,0 +1,148 @@
+.body{
+    margin: 0;
+    padding-bottom: 20px;
+    background-color: black;
+}
+.wrapper{
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    height: 225px;
+}
+.brandlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-family: Playfair Display,Arial;
+    font-weight: 400;
+    letter-spacing: 6.5px;
+    font-stretch: 100%;
+    color:#b7b7b7;;
+    height: 50px;
+    padding-top: 37px;
+    
+    
+}
+.kopiko{
+    margin-top: 60;
+    cursor: pointer;
+    transition: color 0.5s;
+    }
+    .kopiko:hover{
+        color: red;
+       
+    }
+.TAG{
+     margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Open Sans;
+    letter-spacing: 5px;
+    
+    color:#b7b7b7;;
+    height: 16px;
+    cursor: pointer;
+  
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #b7b7b7;
+    margin-top: 70px;
+    border-top: 0.5px solid #b7b7b7;
+    
+
+}
+.navd{
+    margin-left: 50px;
+    font-size: 14px;
+    color: white;
+    font-family: Open Sans,Arial;
+   letter-spacing: 0.29px;
+   cursor: pointer;
+   transition: color 0.5s;
+}
+.navd:hover{
+    color:rgb(194, 39, 39) ;
+}
+.homed{
+       margin-left: 50px;
+        font-size: 14px;
+        color: rgb(194, 39, 39);
+        font-family: Open Sans,Arial;
+       letter-spacing: 0.29px;
+       cursor: pointer;
+       transition: color 0.5s;
+       }
+       .homed:hover{
+        color: white;
+       }
+
+.maincover{
+    width: 100%;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+    height: 170px;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 22px;
+    color: #585555;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 700;
+   
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    
+    
+    margin-left: 250px;
+    margin-top: 20px;
+    width: fit-content;
+    font-family: Roboto,Arial;
+    font-weight: 400;
+    font-size: 22px;
+    color: #585555;
+    font-weight: 700;
+}
+.coffee{
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    margin-top: 200px;
+    margin-right: 70px;
+}
+.smicon{
+    height: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: rgb(107, 104, 104);
+    
+}
